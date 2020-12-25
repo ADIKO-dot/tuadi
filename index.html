@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- style switcher -->
+    <link rel="stylesheet" href="assets/css/style-switcher.css">
+    <link rel="stylesheet" href="assets/css/skins/color1.css" disabled>
+    <!--  -->
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-1" href="assets/css/skins/color1.css"
+        disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-2" href="assets/css/skins/color2.css"
+        disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-3" href="assets/css/skins/color3.css"
+        disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-4" href="assets/css/skins/color4.css"
+        disabled>
+    <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="assets/css/skins/color5.css"
+        disabled>
+    <!-- BOX ICONS -->
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- title body -->
+    <title>Personal Portfolio | Putu Adi</title>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">TuAdi</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Sertification</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main class="l-main">
+        <!-- STYLE SWITCHER -->
+        <div class="style-switcher outer-shadow">
+            <div class="style-toggler s-icon outer-shadow hover-in-shadow">
+                <i class='bx bxs-cog bx-spin'></i>
+            </div>
+            <div class="day-night s-icon outer-shadow hover-in-shadow">
+                <i class='bx'></i>
+            </div>
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+
+                    <h1 class="gome__title">I Putu Adibawa</h1>
+                    <span class="home__profession">Cook Japanese | Web Design</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/tuadiko" target="_blank" class="home__sosial-link"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/ADIKO-dot" target="_blank" class="home__sosial-link"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://wa.me/6282257766866" target="_blank" class="home__sosial-link"><i
+                                class='bx bxl-whatsapp'></i></a>
+                        <a href="https://www.instagram.com/kodexy__" target="_blank" class="home__sosial-link"><i
+                                target="_blank" class='bx bxl-instagram-alt'></i></a>
+
+                    </div>
+                    <a downlaod="" href="assets/doc/cvputuadi.pdf" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My Intro</span>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Hello, my name is I Putu Adi Bawa. I'm 23 years old. I was graduate
+                        from SMK Pariwisata majoring cullinary. I have
+                        interest with technology and cooking. I have work experience as a cooker for 5 years. I capable
+                        of classic japanese
+                        food. For now i still learning about programming.</p>
+                    <img src="assets/img/about.png" alt="" class="about__img">
+                </div>
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+                        <div class="about__information-data">
+                            <i class='bx bx-user about__information-icon'></i>
+                            <span>I Putu Adi Bawa</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-phone about__information-icon'></i>
+                            <span>+62 822 577 668 66</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-envelope about__information-icon'></i>
+                            <span>iputuadibawa@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experience and support</h3>
+
+                        <div class="about__information-data">
+                            <i class='bx bx-medal about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">5 Years Job</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+                        <div class="about__information-data">
+                            <i class='bx bx-briefcase about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">5 Projects</span>
+                                <span class="about__information-subtitle-small">Completed</span>
+                            </div>
+                        </div>
+                        <div class="about__information-data">
+                            <i class='bx bx-support about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILL -->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Programming</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Html/css</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">PHP</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__php"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__number">40%</span>
+                        <span class="skills__bar skills__css"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__number">10%</span>
+                        <span class="skills__bar skills__jr"></span>
+                    </div>
+
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Cooking</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Japanese</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__jap"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Western</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__west"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Vietnam</span>
+                        <span class="skills__number">20%</span>
+                        <span class="skills__bar skills__viet"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Indonesia</span>
+                        <span class="skills__number">20%</span>
+                        <span class="skills__bar skills__indo"></span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="education section" id="">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+            <div class="education__container bd-grid">
+                <div class="education__content">
+
+                    <div>
+                        <h3 class="education__year">2012 - 2015</h3>
+                        <span class="education__university">Vocational High School</span>
+                    </div>
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="education__race">SMK PGRI 3 DENPASAR</h3>
+                        <span class="education__specialty">F & B PRODUCT</span>
+                    </div>
+
+                </div>
+                <div class="education__content">
+
+                    <div>
+                        <h3 class="education__year">2009 - 2012</h3>
+                        <span class="education__university">Junior High School</span>
+                    </div>
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="education__race">SMP PGRI 3 DENPASAR</h3>
+                        <span class="education__specialty">Denpasar Barat</span>
+                    </div>
+
+                </div>
+                <div class="education__content">
+
+                    <div>
+                        <h3 class="education__year">2005 - 2009</h3>
+                        <span class="education__university">Elementary School</span>
+                    </div>
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="education__race">SDPN TULANGAMPIANG</h3>
+                        <span class="education__specialty">Denpasar Barat</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service section" id="services">
+            <span class="section-subtitle">What I Love Doing</span>
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services__container bd-grid">
+
+                <div class="services__content">
+                    <i class='bx bx-code services__icon'></i>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">First impressions are very important. Visual forms as an important
+                        role that make your visitors dicide that; whether
+                        your site is important or not at all. Convincing or not. Convenient or distracting. As well as
+                        whether your website can
+                        describe the main idea it wants to convey.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class='bx bx-pen services__icon'></i>
+                    <h3 class="services__title">Graphic Design</h3>
+                    <p class="services__description">Graphic designer is a work of illustrating, typography,
+                        photography, or motion graphics both for publishers and for
+                        printing and electronic media. A graphic designer is in charge of the display on a media
+                        promotion of a product. His job
+                        was to convey information about a product ina way that accommodates the client's wishes.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class='bx bx-cookie services__icon'></i>
+                    <h3 class="services__title">Japanese Cook</h3>
+                    <p class="services__description">Japanese food has its own signature. Because of this, it takes an
+                        expert not only to identify the ingredients but also
+                        the ingredients and proper treatment of the ingredients..</p>
+                </div>
+
+                <div class="services__content">
+                    <i class='bx bx-server services__icon'></i>
+                    <h3 class="services__title">Administration</h3>
+                    <p class="services__description">Every company of both large and small must have many documents,
+                        papers, communications with clients, to financial
+                        matters. The needs of this office are commonly known by administrative terms. Admin is a company
+                        employee who has a job
+                        or a jobdesk to run the company administration. An admin is not only in charge of managing
+                        company documents</p>
+                </div>
+
+                <!-- <div class="services__content">
+                    <i class='bx bx-pencil services__icon'></i>
+                    <h3 class="services__title">Content Writing</h3>
+                    <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                        quo aperiam provident, consectetur ratione at obcaecati? Blanditiis error at obcaecati mollitia
+                        perspiciatis vel ut? Molestiae, deserunt voluptas.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class='bx bx-mobile services__icon'></i>
+                    <h3 class="services__title">Interface Mobile</h3>
+                    <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                        quo aperiam provident, consectetur ratione at obcaecati? Blanditiis error at obcaecati mollitia
+                        perspiciatis vel ut? Molestiae, deserunt voluptas.</p>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- PROJECT IN MIND -->
+        <section class="project section">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-titlle section__title">Do you have a interest in my portfolio</h2>
+                    <p class="project__description">I sincerely hope that you are willing to give me a chance to test
+                        and interview, so that I can explain in more detail my
+                        potential.
+                    </p>
+                    <a href="#contact" class="button button__light">Contact Me</a>
+                </div>
+                <img src="assets/img/projectmind.png" alt="" class="project__img">
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="works section" id="works">
+
+            <span class="section-subtitle">My portfolio</span>
+            <h2 class="section-title">Recent Sertification</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="assets/img/sert1.png" alt="">
+
+                    <div class="works__data">
+                        <a href="https://progate.com/path_certificate/372fae62qkv6ti" target="_blank"
+                            class="works__link"><i class='bx bx-link-alt'></i></a>
+                        <span class="works__title">Progate</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/sert2.png" alt="">
+
+                    <div class="works__data">
+                        <a href="https://progate.com/course_certificate/3301b7fbqknsee" target="_blank"
+                            class="works__link"><i class='bx bx-link-alt'></i></a>
+                        <span class="works__title">Progate</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/sert3.png" alt="">
+
+                    <div class="works__data">
+                        <a href="https://progate.com/course_certificate/cfbfede4qkcow8" target="_blank"
+                            class="works__link"><i class='bx bx-link-alt'></i></a>
+                        <span class="works__title">Progate</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/sert4.png" alt="">
+
+                    <div class="works__data">
+                        <a href="https://www.dicoding.com/certificates/QLZ98Q377X5D" target="_blank"
+                            class="works__link"><i class='bx bx-link-alt'></i></a>
+                        <span class="works__title">Dicoding</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/sert5.png" alt="">
+
+                    <div class="works__data">
+                        <a href="https://www.dicoding.com/certificates/0LZ0D94RQX65" target="_blank"
+                            class="works__link"><i class='bx bx-link-alt'></i></a>
+                        <span class="works__title">Dicoding</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/sert6.png" alt="">
+
+                    <div class="works__data">
+                        <a href="#" class="works__link"><i class='bx bx-link-alt'></i></a>
+                        <span class="works__title">BabaStudio</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+
+                    <input type="text" placeholder="Project" class="contact__input">
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">+62 822 577 668 66</span>
+                        <span class="contact__text">+62 822 577 668 66</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">iputuadibawa@gmail.com</span>
+                        <span class="contact__text">iputuadidroid@gmail.com</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Perum Sambada Asri</span>
+                        <span class="contact__text">Penarungan - Mengwi - Badung</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Putuadi</h1>
+            <p class="footer__description">I am Putuadi and this is my personal website, its hard to say ahead of the
+                game.I take every task seriously. Things i do flawlessly</p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__link"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved by Putuadi || Youtube - 2020</p>
+        </div>
+    </footer>
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/style-switcher.js"></script>
+
+</body>
+
+</html>
